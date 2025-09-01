@@ -16,6 +16,12 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@domains/*": ["src/domains/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@entities/*": ["src/entities/*"],
+      "@messaging/*": ["src/messaging/*"]
+    }
   }
 }
